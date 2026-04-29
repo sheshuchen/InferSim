@@ -1,6 +1,8 @@
 """
 Grouped Masked GEMM 的简化 PyTorch 实现
 
+push -u myfork learn-qwen3.5-122B
+
 本文件用纯 PyTorch 实现 deep_gemm.m_grouped_fp8_gemm_nt_masked 的核心逻辑，
 帮助你理解 "分组 + Mask + FP8 GEMM" 的原理，不依赖 DeepGEMM 库。
 
